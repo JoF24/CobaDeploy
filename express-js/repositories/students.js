@@ -1,4 +1,4 @@
-const students = require("../../data/student.json");
+const students = require("../data/student.json");
 const fs = require("fs");
 
 exports.getStudents = (nama, panggilan, universitas) => {
