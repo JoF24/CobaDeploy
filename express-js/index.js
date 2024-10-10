@@ -3,7 +3,7 @@ require("express-async-errors");
 const { errorHandler, notFoundURLHandler } = require("./middlewares/errors");
 const fileUpload = require("express-fileupload");
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 4000;
 const router = require("./routes");
 
 
